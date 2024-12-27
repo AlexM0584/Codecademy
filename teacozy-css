@@ -1,0 +1,193 @@
+header {
+  background-color: black;
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+  padding-left: 10px;
+}
+
+header {
+  position: relative;
+}
+
+.menu {
+  color: white;
+  display: flex;
+  max-height: 69px; 
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .menu ul { 
+  display: flex;
+  justify-content: flex-end; /* Align items to the end of the main axis */
+  list-style: none;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 0 10px;
+}
+
+body {
+  background-color: black;
+}
+
+.herosection {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.heroimage {
+  flex: 1;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.mission {
+  background-color: black;
+  max-height: 180px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  top: 220px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.listofteas ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  width: 100%;
+}
+
+.listofteas img {
+  margin-bottom: 10px;
+  max-height: 200px;
+  max-width: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.listofteas h4 {
+  padding: 0px;
+  margin: 0 0 20px 0;
+  font-size: 1em;
+}
+
+.teaofthemonth {
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+.locations {
+  text-align: center;
+  color: seashell;
+  font-family: Helvetica;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  font-size: 22px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*y8j7hc*_gcl_au*MTg1MzA3MDc0NC4xNzMwMTEwNjMx*_ga*NjA1OTM1OTI5MS4xNzMwMTEwNjI4*_ga_3LRZM6TM9L*MTczNTAzNzQ0Mi4xNC4xLjE3MzUwMzc5ODMuMjguMC4w');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%; /* Ensure the image covers the section */
+  height: 100%; /* Adjust to fit the container */
+  padding-bottom: 100px;
+}
+
+.locations h2 {
+  margin: 50px 0 15px 0;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+}
+
+.locations-row {
+  display: flex; /* Align the containers in a row */
+  position: relative;
+  justify-content: center; /* Center the row within the parent */
+  flex-direction: row;
+  gap: 20px; /* Add spacing between the containers */
+  width: 100%; /* Ensure full width for alignment */
+  height: 100%; /* Ensure full width for alignment */
+  flex: 1;
+  z-index: 2;
+  flex-wrap: wrap;
+}
+
+#downtown, #bayside, #oakdale {
+  background-color: black;
+  text-align: center;
+  flex: 1;
+  padding: 20px;
+  max-height: auto;
+  max-width: 300px;
+  color: seashell;
+  opacity: 0.9;
+  position: relative;
+  z-index: 10;
+}
+
+.locations-background img {
+  max-width: 1200px;
+  max-height: 500px;
+  width: 100%; /* Ensure the image covers the section */
+  height: 100%; /* Adjust to fit the container */
+  object-fit: cover; /* Scale without distorting */
+  display: flex;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+  padding: 20px; /* Add inner padding */
+  color: seashell; /* Match the color scheme */
+  opacity: 0.9;
+  font-family: Helvetica;
+}
+
+#copyright {
+  display: flex;
+  justify-content: flex-start;
+  font-family: Helvetica;
+}
+
+
+
+
